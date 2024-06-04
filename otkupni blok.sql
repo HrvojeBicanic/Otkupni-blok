@@ -11,5 +11,15 @@ id int not null primary key identity(1,1),
 ime varchar(50) not null,
 prezime varchar(50) not null,
 broj_osobne int not null,
-adresa varchar(50)
+adresa varchar(50) not null
+);
+
+create table uredaji (
+id int not null primary key identity(1,1),
+prodavac_id int not null,
+model varchar(50) not null,
+imei int not null,
+cijena decimal not null,
+garancija varchar(50) not null,
+otkup_id int not null,
 );
