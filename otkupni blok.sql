@@ -23,3 +23,11 @@ cijena decimal not null,
 garancija varchar(50) not null,
 otkup_id int not null,
 );
+
+create table otkupi (
+id int not null primary key identity (1,1),
+ime_zaposlenika varchar(50) not null,
+prezime_zaposlenika varchar(50) not null,
+datum datetime not null,
+otkupni blok int not null
+);
