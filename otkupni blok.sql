@@ -29,5 +29,6 @@ id int not null primary key identity (1,1),
 ime_zaposlenika varchar(50) not null,
 prezime_zaposlenika varchar(50) not null,
 datum datetime not null,
-otkupni blok int not null
+otkupni_blok int not null
 );
+
