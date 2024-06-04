@@ -1,0 +1,15 @@
+evidencija otkupa
+
+prodavac - ime, prezime, broj osobne, adresa 
+
+uredaj - model, imei, cijena, starost, 
+
+otkup - datum, zaposlenik, otkupni blok
+
+
+
+
+-----
+povezati prodavaca i s proslim uredajima ukoliko je prodao ranije?
+black list?
+napomenuti ukoliko je ponovno kupljen isti uredaj?
